@@ -1,3 +1,4 @@
+
 /*Esta clase es la que nos permite hacer uso de el motor de base de datos postgres
 y asi mismo su configuracion base
 */
@@ -25,3 +26,4 @@ class ServicePostgres {
 }
 
 module.exports = ServicePostgres; 
+
