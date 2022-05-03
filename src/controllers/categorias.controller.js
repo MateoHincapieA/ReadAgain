@@ -10,8 +10,8 @@ const pool = new Pool ({
 
 const getCategorias = async(req, res) => {
     await pool.query('SELECT * FROM categorias')
-        .then(response => {
-            res.status(200).json(response.rows);
+        .then(res => {
+            res.status(200).json(res.rows);
         })
         .catch(err => {
             console.log(err);
